@@ -1,0 +1,25 @@
+﻿Designator,Quantity,Value,Footprint,Package,MPN,DNP,Mount_Type,Description,Sim.Device,Sim.Pins,MF,MAXIMUM_PACKAGE_HEIGHT,Price,Check_prices,STANDARD,PARTREV,SnapEDA_Link,MP,Description_1,Availability,MANUFACTURER,Height,Manufacturer_Name,Mouser Part Number,Mouser Price/Stock,Arrow Part Number,Arrow Price/Stock,DESCRIPTION,PRICE,Purchase-URL
+C1,1,0.1uF,C_1206_3216Metric,,,,smt,Unpolarized capacitor,,,,,,,,,,,,,,,,,,,,,,
+C2,1,0.33uF,C_1206_3216Metric,,,,smt,Unpolarized capacitor,,,,,,,,,,,,,,,,,,,,,,
+D1,1,D,D_DO-201AD_P15.24mm_Horizontal,,,,tht,Diode,D,1=K 2=A,,,,,,,,,,,,,,,,,,,,
+D2,1,L-53GD,LEDRD254W50D500H1060,CDIP-28 Kingbright,,,tht,,,,Kingbright,10.6mm,None,https://www.snapeda.com/parts/L-53GD/Kingbright/view-part/?ref=eda,IPC-7351B,V.3,https://www.snapeda.com/parts/L-53GD/Kingbright/view-part/?ref=snap,L-53GD,"
+                        
+                            LED; 5mm; green; 5-32mcd; 60°; Front: convex
+                        
+",In Stock,Kingbright,,,,,,,,,
+D3,1,D_Zener,D_DO-15_P15.24mm_Horizontal,,,,tht,Zener diode,,,,,,,,,,,,,,,,,,,,,,
+IC1,1,UCC23513QDWYRQ1,SOIC127P1150X355-6N,,UCC23513QDWYRQ1,,smt,"Gate Drivers Automotive 4-A source, 5-A sink, 5.7-kVRMS opto-compatible single-channel isolated gate driver 6-SOIC -40 to 125",,,,,,,,,,,,,,3.55,Texas Instruments,595-UCC23513QDWYRQ1,https://www.mouser.co.uk/ProductDetail/Texas-Instruments/UCC23513QDWYRQ1?qs=DRkmTr78QAQFOTnNqSLksg%3D%3D,UCC23513QDWYRQ1,https://www.arrow.com/en/products/ucc23513qdwyrq1/texas-instruments?region=nac,,,
+J1,1,Conn_01x04_Pin,NS-Tech_Grove_1x04_P2mm_Vertical,,,,tht,"Generic connector, single row, 01x04, script generated",,,,,,,,,,,,,,,,,,,,,,
+"R1, R2",2,130R,R_1206_3216Metric,,,,smt,Resistor,,,,,,,,,,,,,,,,,,,,,,
+R3,1,1.1k,R_1206_3216Metric,,,,smt,Resistor,,,,,,,,,,,,,,,,,,,,,,
+"TP1, TP2, TP3",3,TestPoint,Pin_D0.9mm_L10.0mm_W2.4mm_FlatFork,,,,tht,test point,,,,,,,,,,,,,,,,,,,,,,
+U1,1,STP55NF06L,TO254P1040X460X1935-3,TO-220 STMicroelectronics,,,tht,,,,STMicroelectronics,,None,https://www.snapeda.com/parts/STP55NF06L/STMicroelectronics/view-part/?ref=eda,IPC7351B,,https://www.snapeda.com/parts/STP55NF06L/STMicroelectronics/view-part/?ref=snap,STP55NF06L,"
+                        
+                            N-Channel 60V 55A (Tc) 95W (Tc) Through Hole TO-220AB
+                        
+",In Stock,STMicroelectronics,,,,,,,"N-channel 60 V, 0.014 Ohm typ., 35 A StripFET II Power MOSFET in a TO-220 package",None,https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=552863&manufacturer=STMicroelectronics&part_name=STP55NF06L&search_term=None
+U2,1,MC7805BDTRKG,DPAK229P990X238-4N,DPAK-3 ON Semiconductor,,,smt,,,,onsemi,,None,https://www.snapeda.com/parts/MC7805BDTRKG/Onsemi/view-part/?ref=eda,IPC-7351B,27,https://www.snapeda.com/parts/MC7805BDTRKG/Onsemi/view-part/?ref=snap,MC7805BDTRKG,"
+                        
+                            Linear Voltage Regulator IC Positive Fixed 1 Output 1A DPAK
+                        
+",In Stock,ON Semiconductor,,,,,,,,,

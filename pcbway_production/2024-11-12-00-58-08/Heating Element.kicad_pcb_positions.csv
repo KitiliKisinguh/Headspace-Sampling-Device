@@ -1,0 +1,16 @@
+﻿pos_x,pos_y,rotation,side,designator,mpn,pack,footprint,value,mount_type
+97.0,-100.5,0.0,top,C1,,,C_1206_3216Metric,0.1uF,smt
+136.095,-99.06,0.0,top,C2,,,C_1206_3216Metric,0.33uF,smt
+119.1376,-83.8794,-90.0,top,D1,,,D_DO-201AD_P15.24mm_Horizontal,D,tht
+96.2268,-79.155,0.0,top,D2,,CDIP-28 Kingbright,LEDRD254W50D500H1060,L-53GD,tht
+127.8752,-83.8286,-90.0,top,D3,,,D_DO-15_P15.24mm_Horizontal,D_Zener,tht
+112.2632,-74.5576,0.0,top,IC1,UCC23513QDWYRQ1,,SOIC127P1150X355-6N,UCC23513QDWYRQ1,smt
+95.5156,-89.6076,0.0,top,J1,,,NS-Tech_Grove_1x04_P2mm_Vertical,Conn_01x04_Pin,tht
+106.1328,-93.9378,0.0,top,R1,,,R_1206_3216Metric,130R,smt
+105.828,-99.056,0.0,top,R2,,,R_1206_3216Metric,130R,smt
+106.3614,-88.3498,0.0,top,R3,,,R_1206_3216Metric,1.1k,smt
+111.9748,-98.9416,0.0,top,TP1,,,Pin_D0.9mm_L10.0mm_W2.4mm_FlatFork,TestPoint,tht
+112.0,-92.5,0.0,top,TP2,,,Pin_D0.9mm_L10.0mm_W2.4mm_FlatFork,TestPoint,tht
+112.0,-86.5,0.0,top,TP3,,,Pin_D0.9mm_L10.0mm_W2.4mm_FlatFork,TestPoint,tht
+117.5,-105.5,180.0,top,U1,,TO-220 STMicroelectronics,TO254P1040X460X1935-3,STP55NF06L,tht
+138.5178,-89.0818,0.0,top,U2,,DPAK-3 ON Semiconductor,DPAK229P990X238-4N,MC7805BDTRKG,smt
