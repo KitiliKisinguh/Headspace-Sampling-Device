@@ -5288,16 +5288,89 @@
 		(layer "F.SilkS")
 		(uuid "d214822c-ef07-4644-b60d-fd083949ebda")
 	)
-	(gr_rect
-		(start 95.25 78)
-		(end 151.25 115)
+	(gr_arc
+		(start 150.75 78)
+		(mid 151.103553 78.146447)
+		(end 151.25 78.5)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
 		(layer "Edge.Cuts")
-		(uuid "046b2b7b-b218-4c6b-bc24-ee9b990a63a1")
+		(uuid "199cfd09-0623-4bd1-ab1c-08cfea37fe27")
+	)
+	(gr_arc
+		(start 151.25 114.5)
+		(mid 151.103553 114.853553)
+		(end 150.75 115)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "2af1c722-7000-4634-8382-dff2841c2d57")
+	)
+	(gr_line
+		(start 95.75 115)
+		(end 150.75 115)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "3054e3c7-b210-4ce2-99d8-5a5c64714333")
+	)
+	(gr_arc
+		(start 95.25 78.5)
+		(mid 95.396447 78.146447)
+		(end 95.75 78)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "465cdd13-a47e-402a-ab51-47eb716a4826")
+	)
+	(gr_line
+		(start 151.25 114.5)
+		(end 151.25 78.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "54c684ef-5f18-45fd-bd0f-282f28509564")
+	)
+	(gr_line
+		(start 150.75 78)
+		(end 95.75 78)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "5dd5e5e4-6cac-498e-92ba-6187cc8f7689")
+	)
+	(gr_arc
+		(start 95.75 115)
+		(mid 95.396447 114.853553)
+		(end 95.25 114.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "9e49be8c-2af0-44d2-8e25-02bc9a4faf9c")
+	)
+	(gr_line
+		(start 95.25 78.5)
+		(end 95.25 114.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "d937b085-270b-43c5-ba65-20e96f4017e8")
 	)
 	(gr_text "PWM Controller V1\nDesigner: K.K"
 		(at 125.25 112.75 0)
