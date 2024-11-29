@@ -1,0 +1,30 @@
+﻿Designator,Quantity,Value,Footprint,Package,MPN,DNP,Mount_Type,Description,MF,Description_1,Price,SnapEDA_Link,MP,Availability,Check_prices,Manufacturer,MAXIMUM_PACKAGE_HEIGHT,STANDARD,PARTREV,MANUFACTURER,Height,Manufacturer_Name,Mouser Part Number,Mouser Price/Stock,Arrow Part Number,Arrow Price/Stock,DESCRIPTION,PRICE,Purchase-URL
+C1,1,0.1uF,C_1206_3216Metric,,,,smt,Unpolarized capacitor,,,,,,,,,,,,,,,,,,,,,
+C2,1,0.33uF,C_1206_3216Metric,,,,smt,Unpolarized capacitor,,,,,,,,,,,,,,,,,,,,,
+D1,1,PMEG3005ET-QR,SOT23,SOT-23 Diodes Inc.,,,smt,"Small Signal Schottky Diode, Single, 30 V, 0.5 A, 430 mV, 10 A, 150 °C",NEXPERIA,"
+                        
+                            Diode Schottky 70V 0.07A 3-Pin SOT-23 T/R Diode Schottky 70V 0.07A 3-Pin SOT-23 T/R
+                        
+",None,https://www.snapeda.com/parts/BAS70-7/Diodes+Inc./view-part/?ref=snap,BAS70-7,In Stock,https://www.snapeda.com/parts/BAS70-7/Diodes+Inc./view-part/?ref=eda,,,,,,,,,,,,,,
+D2,1,KA-3528SGT,WL-SMTW_3528,PLCC-2 Würth Elektronik,,,smt,"Kingbright2.2 V Green LED PLCC 2 SMD, KA-3528SGT",Kingbright,,None,https://www.snapeda.com/parts/150141VS73100/Wurth+Electronics/view-part/?ref=snap,150141VS73100,In Stock,https://www.snapeda.com/parts/150141VS73100/Wurth+Electronics/view-part/?ref=eda,,,,,,,,,,,,,,
+D3,1,BZX84C15,SOT-23,,,,smt,"Zener Single Diode, 15 V, 350 mW, SOT-23, 3 Pins, 150 °C, Surface Mount",,,,,,,,DIODES INC.,,,,,,,,,,,,,
+D4,1,BZD27C24P R3G,SODFL3618X143N,SUB SMA-2 Taiwan Semiconductor,,,smt,,Taiwan Semiconductor,"
+                        
+                            Sub SMA, 1000mW, 6%, Zener Diode
+                        
+",None,https://www.snapeda.com/parts/BZD27C10P/Taiwan+Semiconductor/view-part/?ref=snap,BZD27C10P,In Stock,https://www.snapeda.com/parts/BZD27C10P/Taiwan+Semiconductor/view-part/?ref=eda,,1.43mm,IPC-7351B,AB2103,Taiwan Semiconductor,,,,,,,,,
+IC1,1,UCC23513QDWYRQ1,SOIC127P1150X355-6N,,UCC23513QDWYRQ1,,smt,"Gate Drivers Automotive 4-A source, 5-A sink, 5.7-kVRMS opto-compatible single-channel isolated gate driver 6-SOIC -40 to 125",,,,,,,,,,,,,3.55,Texas Instruments,595-UCC23513QDWYRQ1,https://www.mouser.co.uk/ProductDetail/Texas-Instruments/UCC23513QDWYRQ1?qs=DRkmTr78QAQFOTnNqSLksg%3D%3D,UCC23513QDWYRQ1,https://www.arrow.com/en/products/ucc23513qdwyrq1/texas-instruments?region=nac,,,
+"J1, J2",2,Conn_01x02_Pin,PinSocket_1x02_P2.00mm_Vertical,,,,tht,"Generic connector, single row, 01x02, script generated",,,,,,,,,,,,,,,,,,,,,
+"R1, R2",2,130R,R_1206_3216Metric,,,,smt,Resistor,,,,,,,,,,,,,,,,,,,,,
+R3,1,1.1k,R_1206_3216Metric,,,,smt,Resistor,,,,,,,,,,,,,,,,,,,,,
+"TP1, TP2, TP3",3,TestPoint,Pin_D0.9mm_L10.0mm_W2.4mm_FlatFork,,,,tht,test point,,,,,,,,,,,,,,,,,,,,,
+U1,1,STP55NF06L,TO254P1040X460X1935-3,TO-220 STMicroelectronics,,,tht,,STMicroelectronics,"
+                        
+                            N-Channel 60V 55A (Tc) 95W (Tc) Through Hole TO-220AB
+                        
+",None,https://www.snapeda.com/parts/STP55NF06L/STMicroelectronics/view-part/?ref=snap,STP55NF06L,In Stock,https://www.snapeda.com/parts/STP55NF06L/STMicroelectronics/view-part/?ref=eda,,,IPC7351B,,STMicroelectronics,,,,,,,"N-channel 60 V, 0.014 Ohm typ., 35 A StripFET II Power MOSFET in a TO-220 package",None,https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=552863&manufacturer=STMicroelectronics&part_name=STP55NF06L&search_term=None
+U2,1,MC7815CDTRKG,DPAK229P990X238-4N,DPAK-3 ON Semiconductor,,,smt,,onsemi,"
+                        
+                            Linear Voltage Regulator IC Positive Fixed 1 Output 1A DPAK
+                        
+",None,https://www.snapeda.com/parts/MC7805BDTRKG/Onsemi/view-part/?ref=snap,MC7805BDTRKG,In Stock,https://www.snapeda.com/parts/MC7805BDTRKG/Onsemi/view-part/?ref=eda,,,IPC-7351B,27,ON Semiconductor,,,,,,,,,
