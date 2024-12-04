@@ -504,9 +504,7 @@
       "version": 3
     },
     "net_colors": null,
-    "netclass_assignments": {
-      "/+15V": "Power"
-    },
+    "netclass_assignments": null,
     "netclass_patterns": [
       {
         "netclass": "Power",
@@ -759,6 +757,18 @@
           "label": "Arrow Price/Stock",
           "name": "Arrow Price/Stock",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Voltage",
+          "name": "Voltage",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Tolerance",
+          "name": "Tolerance",
+          "show": true
         }
       ],
       "filter_string": "",
