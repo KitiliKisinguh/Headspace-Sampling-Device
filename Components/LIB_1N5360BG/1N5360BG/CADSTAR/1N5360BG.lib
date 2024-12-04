@@ -1,0 +1,18 @@
+.1N5360BG :1 ;ON Semiconductor 1N5360BG Zener Diode, 25V 5% 5 W Through Hole 2-Pin DO-15
+DIOAD2260W109L864D349
+*STM D
+*NGS
+*PLB 1="K" 2="A"
+*MXP 2
+*DFN 1N5360BG
+~!Manufacturer_Name (onsemi)
+~!Manufacturer_Part_Number (1N5360BG)
+~!Mouser Part Number (863-1N5360BG)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/onsemi/1N5360BG?qs=y2kkmE52mdN6P0RyIJSeLg%3D%3D)
+~!Arrow Part Number (1N5360BG)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/1n5360bg/on-semiconductor?utm_currency=USD&region=nac)
+~!Link Datasheet (https://www.mouser.in/datasheet/2/308/1N5333B-D-102336.pdf)
+~!Height (-)
+~!3D_Model (1N5360BG)
+"1N5360BG"
+1.1!U 2.1!U 

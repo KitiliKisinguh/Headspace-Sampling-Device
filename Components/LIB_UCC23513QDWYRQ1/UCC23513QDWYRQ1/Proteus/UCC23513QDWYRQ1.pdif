@@ -1,0 +1,134 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "UCC23513QDWYRQ1"
+   (description "Gate Drivers Automotive 4-A source, 5-A sink, 5.7-kVRMS opto-compatible single-channel isolated gate driver 6-SOIC -40 to 125")
+   (family "ANA")
+   (package "SOIC127P1150X355-6N")
+   (attribute "Datasheet Link" "https://www.ti.com/lit/ds/symlink/ucc23513-q1.pdf?ts=1619871207992&ref_url=https%253A%252F%252Feu.mouser.com%252F")
+   (attribute "Geometry.Height" "3.55mm")
+   (attribute "Manufacturer_Name" "Texas Instruments")
+   (attribute "Manufacturer_Part_Number" "UCC23513QDWYRQ1")
+   (attribute "Mouser Part Number" "595-UCC23513QDWYRQ1")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/UCC23513QDWYRQ1?qs=DRkmTr78QAQFOTnNqSLksg%3D%3D")
+   (attribute "Arrow Part Number" "UCC23513QDWYRQ1")
+   (attribute "Arrow Price/Stock" "https://www.arrow.com/en/products/ucc23513qdwyrq1/texas-instruments?region=nac")
+   (gate
+    (symbol "UCC23513QDWYRQ1")
+    (pin "ANODE" 1 PS)
+    (pin "NC" 2 NC)
+    (pin "CATHODE" 3 PS)
+    (pin "VCC" 6 PS)
+    (pin "VOUT" 5 PS)
+    (pin "VEE" 4 PS)
+   )
+  )
+  (symbol "UCC23513QDWYRQ1"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 1100 100) (pt 1100 -300) (pt 200 -300) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1300 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1300 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1300 -200) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "SOIC127P1150X355-6N"
+   (units MM)
+   (layer OCCA
+    (graphic
+     (stroke 0.05)
+     (path
+      (closed true)
+      (pt -6.5 2.64)
+      (pt 6.5 2.64)
+      (pt 6.5 -2.64)
+      (pt -6.5 -2.64)
+      (pt -6.5 2.64))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -3.75 2.34)
+      (pt 3.75 2.34)
+      (pt 3.75 -2.34)
+      (pt -3.75 -2.34)
+      (pt -3.75 2.34))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -3.75 1.07)
+      (pt -2.48 2.34))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -4.05 2.34)
+      (pt 4.05 2.34)
+      (pt 4.05 -2.34)
+      (pt -4.05 -2.34)
+      (pt -4.05 2.34))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -6.25 1.945)
+      (pt -4.4 1.945))))
+   (leg 1 (pt -5.325 1.27) (padstack 0))
+   (leg 2 (pt -5.325 0) (padstack 0))
+   (leg 3 (pt -5.325 -1.27) (padstack 0))
+   (leg 4 (pt 5.325 -1.27) (padstack 0))
+   (leg 5 (pt 5.325 0) (padstack 0))
+   (leg 6 (pt 5.325 1.27) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 0.65 1.85 0 0 0))
+   )
+   (model "UCC23513QDWYRQ1.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

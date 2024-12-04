@@ -1,0 +1,9 @@
+Manufacturer=onsemi
+PartNumber=SZMMSZ5245BT1G
+PartCategory=Zener Diode
+PackageCategory=Small Outline Diode
+PinCount=2
+Version=1.1
+Released=2024-09-13 11:45:28
+Downloaded=2024-11-13 12:40:35
+3D=Y

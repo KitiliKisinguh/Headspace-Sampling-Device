@@ -1,0 +1,9 @@
+Manufacturer=Texas Instruments
+PartNumber=UCC23513QDWYRQ1
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline Packages
+PinCount=6
+Version=1.1
+Released=2021-05-02 03:11:34
+Downloaded=2024-11-06 15:22:54
+3D=Y

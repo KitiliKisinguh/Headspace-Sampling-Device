@@ -1,0 +1,169 @@
+
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "IRLZ34NPBF" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (id 0) (at 5.08555 2.54278 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Value" "IRLZ34NPBF" (id 1) (at 5.08476 0.0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Footprint" "IRLZ34NPBF:TO-220_2_" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MF" "Infineon Technologies" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Description" "\n                        \n                            MOSFET, Power,N-Ch,VDSS 55V,RDS(ON) 0.035Ohm,ID 30A,TO-220AB,PD 68W,VGS +/-16V | Infineon IRLZ34NPBF\n                        \n" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Package" "TO-220 Infineon" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Price" "None" (id 7) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "SnapEDA_Link" "https://www.snapeda.com/parts/IRLZ34NPBF/Infineon+Technologies/view-part/?ref=snap" (id 8) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MP" "IRLZ34NPBF" (id 9) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=593184&manufacturer=Infineon Technologies&part_name=IRLZ34NPBF&search_term=None" (id 10) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Availability" "In Stock" (id 11) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Check_prices" "https://www.snapeda.com/parts/IRLZ34NPBF/Infineon+Technologies/view-part/?ref=eda" (id 12) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (symbol "IRLZ34NPBF_0_0"
+      (polyline
+        (pts (xy -3.6576 2.413) (xy -3.6576 -2.54)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 0.0 1.905) (xy -2.0066 1.905)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 0.0 0.0) (xy 0.0 -1.905)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -2.032 -1.905) (xy 0.0 -1.905)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 0.0 2.54) (xy 0.0 1.905)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 0.0 1.905) (xy 2.54 1.905)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 2.54 -1.905) (xy 0.0 -1.905)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 0.0 -1.905) (xy 0.0 -2.54)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -3.81 0.0) (xy -5.08 0.0)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -2.032 0.0) (xy -0.762 -0.508)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -0.762 -0.508) (xy -0.762 0.508)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -0.762 0.508) (xy -2.032 0.0)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -0.889 0.0) (xy 0.0 0.0)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -0.889 0.254) (xy -1.778 0.0)) (stroke (width 0.3048))
+      )
+      (polyline
+        (pts (xy -1.778 0.0) (xy -0.889 -0.254)) (stroke (width 0.3048))
+      )
+      (polyline
+        (pts (xy -0.889 -0.254) (xy -0.889 0.0)) (stroke (width 0.3048))
+      )
+      (polyline
+        (pts (xy -0.889 0.0) (xy -1.143 0.0)) (stroke (width 0.3048))
+      )
+      (polyline
+        (pts (xy 2.54 1.905) (xy 2.54 0.762)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 2.54 0.762) (xy 2.54 -1.905)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 2.54 0.762) (xy 1.905 -0.635)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 1.905 -0.635) (xy 3.175 -0.635)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 3.175 -0.635) (xy 2.54 0.762)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 1.905 0.762) (xy 2.54 0.762)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 2.54 0.762) (xy 3.175 0.762)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 3.175 0.762) (xy 3.429 1.016)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 1.905 0.762) (xy 1.651 0.508)) (stroke (width 0.1524))
+      )
+      (circle (center 0.0 -1.905) (radius 0.127)
+        (stroke (width 0.4064)) (fill (type none))
+      )
+      (circle (center 0.0 1.905) (radius 0.127)
+        (stroke (width 0.4064)) (fill (type none))
+      )
+      (text "D" (at -1.27297 2.54594 0)
+        (effects (font (size 0.8147 0.8147)) (justify bottom left))
+      )
+      (text "S" (at -1.27081 -3.55829 0)
+        (effects (font (size 0.813322 0.813322)) (justify bottom left))
+      )
+      (text "G" (at -5.08521 -1.2713 0)
+        (effects (font (size 0.813635 0.813635)) (justify bottom left))
+      )
+      (rectangle (start -2.79735 -2.54304) (end -2.032 -1.27)
+        (stroke (width 0.1)) (fill (type outline))
+      )
+      (rectangle (start -2.79954 1.27252) (end -2.032 2.54)
+        (stroke (width 0.1)) (fill (type outline))
+      )
+      (rectangle (start -2.79623 -0.889712) (end -2.032 0.889)
+        (stroke (width 0.1)) (fill (type outline))
+      )
+      (pin passive line (at -7.62 0.0 0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "IN"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 0.0 5.08 270.0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "GND"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 0.0 -5.08 90.0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "OUT"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+  )
+)

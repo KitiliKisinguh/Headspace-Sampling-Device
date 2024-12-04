@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SZMMSZ5245BT1G
+D Zener Diodes ZEN REG 0.5W 15V
+K
+F http://www.onsemi.com/pub/Collateral/MMSZ5221BT1-D.PDF
+$ENDCMP
+#
+#End Doc Library

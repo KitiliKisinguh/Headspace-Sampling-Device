@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "SZMMSZ5245BT1G"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2020-03-30-13:28:20)
+    (mountForm default
+        (footprintRef "SOD3716X135N")
+        (spec "System")
+    )
+)

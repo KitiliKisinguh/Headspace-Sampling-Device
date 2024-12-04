@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '1N5360BG'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET";
+{========================================================================================}
+ "onsemi", "1N5360BG" (!) = "", "DIOAD2260W109L864D349", "Diodes, Axial Diameter Horizontal Mounting", "863-1N5360BG", "https://www.mouser.co.uk/ProductDetail/onsemi/1N5360BG?qs=y2kkmE52mdN6P0RyIJSeLg%3D%3D", "1N5360BG", "https://www.arrow.com/en/products/1n5360bg/on-semiconductor?utm_currency=USD&region=nac", "ON Semiconductor 1N5360BG Zener Diode, 25V 5% 5 W Through Hole 2-Pin DO-15", "https://www.mouser.in/datasheet/2/308/1N5333B-D-102336.pdf"
+END_PART
+
+END.

@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "UCC23513QDWYRQ1"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2019-09-24-03:19:26)
+    (mountForm default
+        (footprintRef "SOIC127P1150X355-6N")
+        (spec "System")
+    )
+)

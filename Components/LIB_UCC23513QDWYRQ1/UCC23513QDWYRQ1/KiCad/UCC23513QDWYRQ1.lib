@@ -1,0 +1,29 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model UCC23513QDWYRQ1
+#/13892180/1383188/2.50/6/3/Integrated Circuit
+DEF UCC23513QDWYRQ1 IC 0 30 Y Y 1 F N
+F0 "IC" 1150 300 50 H V L CNN
+F1 "UCC23513QDWYRQ1" 1150 200 50 H V L CNN
+F2 "SOIC127P1150X355-6N" 1150 100 50 H I L CNN
+F3 "https://www.ti.com/lit/ds/symlink/ucc23513-q1.pdf?ts=1619871207992&ref_url=https%253A%252F%252Feu.mouser.com%252F" 1150 0 50 H I L CNN
+F4 "Gate Drivers Automotive 4-A source, 5-A sink, 5.7-kVRMS opto-compatible single-channel isolated gate driver 6-SOIC -40 to 125" 1150 -100 50 H I L CNN "Description"
+F5 "3.55" 1150 -200 50 H I L CNN "Height"
+F6 "Texas Instruments" 1150 -300 50 H I L CNN "Manufacturer_Name"
+F7 "UCC23513QDWYRQ1" 1150 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "595-UCC23513QDWYRQ1" 1150 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/UCC23513QDWYRQ1?qs=DRkmTr78QAQFOTnNqSLksg%3D%3D" 1150 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "UCC23513QDWYRQ1" 1150 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/ucc23513qdwyrq1/texas-instruments?region=nac" 1150 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X ANODE 1 0 0 200 R 50 50 0 0 P
+X NC 2 0 -100 200 R 50 50 0 0 N
+X CATHODE 3 0 -200 200 R 50 50 0 0 P
+X VCC 6 1300 0 200 L 50 50 0 0 P
+X VOUT 5 1300 -100 200 L 50 50 0 0 P
+X VEE 4 1300 -200 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1100 100 1100 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

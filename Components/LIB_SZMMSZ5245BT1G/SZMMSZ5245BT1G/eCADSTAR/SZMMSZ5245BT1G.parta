@@ -1,0 +1,66 @@
+(Japanese_coding: sjis)
+(function "ECS_626184"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2024-09-13-11:45:28)
+    (utime 2024-09-19-14:45:22)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "SZMMSZ5245BT1G")
+)
+
+
+(pinAssign "ECS_626184"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2024-09-13-11:45:28)
+    (utime 2024-09-19-14:45:22)
+    (interface
+        (port "1" (symbPinId 1) (portName "K") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "A") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_626184")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "SZMMSZ5245BT1G")
+)
+
+
+(part "SZMMSZ5245BT1G"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2024-09-13-11:45:28)
+    (utime 2024-09-19-14:45:22)
+    (packageRef "SZMMSZ5245BT1G")
+    (pinAssignRef "ECS_626184")
+    (interface
+        (port "1" (symbPinId 1) (portName "K") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "A") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "NO")
+    (property "refDesPrefix" "Z")
+    (property "description" "Zener Diodes ZEN REG 0.5W 15V")
+    (property "Manufacturer_Name" "onsemi")
+    (property "Manufacturer_Part_Number" "SZMMSZ5245BT1G")
+    (property "Arrow_Part_Number" "SZMMSZ5245BT1G")
+    (property "Arrow_Price/Stock" "https://www.arrow.com/en/products/szmmsz5245bt1g/on-semiconductor")
+    (property "Datasheet_Link" "http://www.onsemi.com/pub/Collateral/MMSZ5221BT1-D.PDF")
+    (property "compAreaTopHeight" 1.35)
+)
+
+
