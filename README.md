@@ -4,17 +4,16 @@
 
 ### Headspace Sampler Operation
 
-<p align="center">
-  <video src="Documents/Videos/Headspace%20Sampling%20Device%20Operation.MP4" width="500px"></video>
-</p>
-
+<video style="display:block; width:100%; height:auto;" autoplay="" controls="" loop="loop">
+           <source src="/Documents/Videos/Headspace%20Sampling%20Device%20Operation.MP4" type="video/mp4">
+</video>
 ---
 
 ### Vial Agitation
 
-<p align="center">
-  <video src="Documents/Videos/Vial%20Agitation.mp4" width="500px"></video>
-</p>
+<video style="display:block; width:100%; height:auto;" autoplay="" controls="" loop="loop">
+           <source src="Documents/Videos/Vial%20Agitation.mp4" type="video/mp4">
+</video>
 
 ---
 
