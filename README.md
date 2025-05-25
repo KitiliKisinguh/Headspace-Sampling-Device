@@ -5,7 +5,7 @@
 ### Headspace Sampler Operation
 
 <video width="320" height="240" controls>
-  <source src="Documents/Videos/HeadspaceSampler%20Operating.MP4" type="video/mp4">
+  <source src="Documents/Videos/Headspace%20Sampling%20Device%20Operation.MP4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
