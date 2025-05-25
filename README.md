@@ -4,17 +4,20 @@
 
 ### Headspace Sampler Operation
 <div style="text-align:center">
-[![Headspace Sampler Operation](Documents/Videos/Headspace%20Sampling%20Device%20Operation.gif)](Documents/Videos/Headspace%20Sampling%20Device%20Operation.gif)  
+<img src="Documents/Videos/Headspace%20Sampling%20Device%20Operation.gif" width="600" alt="Headspace Sampler Operation">
 </div>
-This video demonstrates the proper operation of the headspace sampling device.
+<p style="text-align:center">This video demonstrates the proper operation of the headspace sampling device.</p>
 
 ---
 
 ### Vial Agitation
 <div style="text-align:center">
-[![Vial Agitation](Documents/Videos/Vial%20Agitation.mp4)](Documents/Videos/Vial%20Agitation.mp4)  
+<video width="600" controls loop>
+  <source src="Documents/Videos/Vial%20Agitation.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 </div>
-This video shows the correct technique for vial agitation during the sampling process.
+<p style="text-align:center">This video shows the correct technique for vial agitation during the sampling process.</p>
 
 ---
 
@@ -62,3 +65,6 @@ A second version of the PWM control board, specifically designed for driving ind
 - Output: 12V PWM
 - Max current: 5A
 
+---
+
+## Project Structure
