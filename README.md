@@ -9,7 +9,7 @@ This video demonstrates the proper operation of the headspace sampling device.
 ---
 
 ### Vial Agitation
-[![Vial Agitation](Documents/Videos/Vial%20Agitation.gif)](Documents/Videos/Vial%20Agitation.gif)  
+[![Vial Agitation](Documents/Videos/Vial%20Agitation.mp4)](Documents/Videos/Vial%20Agitation.mp4)  
 This video shows the correct technique for vial agitation during the sampling process.
 
 ---
