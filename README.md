@@ -3,31 +3,29 @@
 ## Headspace Sampling Device
 
 ### Headspace Sampler Operation
-<div style="text-align:center">
-<img src="Documents/Videos/Headspace%20Sampling%20Device%20Operation.gif" width="600" alt="Headspace Sampler Operation">
+<div align="center">
+  <img src="Documents/Videos/Headspace%20Sampling%20Device%20Operation.gif" width="600" alt="Headspace Sampler Demo">
 </div>
-<p style="text-align:center">This video demonstrates the proper operation of the headspace sampling device.</p>
+<p align="center">This video demonstrates the proper operation of the headspace sampling device.</p>
 
 ---
 
 ### Vial Agitation
-<div style="text-align:center">
-<video width="600" controls loop>
-  <source src="Documents/Videos/Vial%20Agitation.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+<div align="center">
+  <video width="600" controls>
+    <source src="Documents/Videos/Vial%20Agitation.mp4" type="video/mp4">
+    Your browser does not support HTML5 video.
+  </video>
 </div>
-<p style="text-align:center">This video shows the correct technique for vial agitation during the sampling process.</p>
+<p align="center">This video shows the correct technique for vial agitation during the sampling process.</p>
 
 ---
 
 ## PWM Control Circuit
 
 ### Interposer Board for ESP32 Controller
-This board is designed to hold and interface with the ESP32 controller used for PWM signal generation.
-
-<div style="text-align:center">
-<img src="Interpose/Images/Interpose.JPEG" width="400" alt="Interpose Control Board">
+<div align="center">
+  <img src="Interpose/Images/Interpose.JPEG" width="400" alt="ESP32 Interposer Board">
 </div>
 
 **Features:**
@@ -38,10 +36,8 @@ This board is designed to hold and interface with the ESP32 controller used for 
 ---
 
 ### Heater Control PCB (KiCad Design)
-Regulates PWM from 24V to 12V for the Kapton heater used in the headspace sampling system.
-
-<div style="text-align:center">
-<img src="Heater-Control-PCB/Images/PWM%20controller%20V1.JPEG" width="400" alt="PWM Control Board V1">
+<div align="center">
+  <img src="Heater-Control-PCB/Images/PWM%20controller%20V1.JPEG" width="400" alt="Heater Control PCB V1">
 </div>
 
 **Specifications:**
@@ -53,10 +49,8 @@ Regulates PWM from 24V to 12V for the Kapton heater used in the headspace sampli
 ---
 
 ### PWM Control for Inductive Loads
-A second version of the PWM control board, specifically designed for driving inductive loads with regulated output.
-
-<div style="text-align:center">
-<img src="PWM%20Control%20Circuit/Images/PWM%20Controller%20V2.JPEG" width="400" alt="PWM Control Board V2">
+<div align="center">
+  <img src="PWM%20Control%20Circuit/Images/PWM%20Controller%20V2.JPEG" width="400" alt="PWM Controller V2">
 </div>
 
 **Specifications:**
