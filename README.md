@@ -4,19 +4,17 @@
 
 ### Headspace Sampler Operation
 
-<video width="320" height="240" controls>
-  <source src="Documents/Videos/Headspace%20Sampling%20Device%20Operation.MP4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+<p align="center">
+  <video src="Documents/Videos/Headspace%20Sampling%20Device%20Operation.MP4" width="500px"></video>
+</p>
 
 ---
 
 ### Vial Agitation
 
-<video width="320" height="240" controls>
-  <source src="Documents/Videos/Vial%20Agitation.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+<p align="center">
+  <video src="Documents/Videos/Vial%20Agitation.mp4" width="500px"></video>
+</p>
 
 ---
 
