@@ -1,0 +1,12 @@
+﻿Designator,Quantity,Value,Footprint,Package,MPN,DNP,Mount_Type,Description,MF,Description_1,Price,SnapEDA_Link,MP,Availability,Check_prices
+"C1, C10, C11, C12, C13, C14, C2, C3, C4, C5, C6, C8, C9",13,10uF,C_1206_3216Metric,,,,smt,Unpolarized capacitor,,,,,,,
+C7,1,0.1uF,C_1206_3216Metric,,,,smt,Unpolarized capacitor,,,,,,,
+"D1, D2, D3",3,WL-SMTW_3528,WL-SMTW_3528,PLCC-2 Würth Elektronik,,,smt,,Wurth Electronics,"3528, Bright Green Typ.(@20mA): 570nm, 90mcd, 2.0V, 120° AllInGaP",None,https://www.snapeda.com/parts/150141VS73100/Wurth+Electronics/view-part/?ref=snap,150141VS73100,In Stock,https://www.snapeda.com/parts/150141VS73100/Wurth+Electronics/view-part/?ref=eda
+"J1, J2, J3",3,Conn_01x02_Pin,PinHeader_1x02_P2.54mm_Vertical,,,,tht,"Generic connector, single row, 01x02, script generated",,,,,,,
+J10,1,Conn_01x06_Pin,PinHeader_1x06_P2.54mm_Vertical,,,,tht,"Generic connector, single row, 01x06, script generated",,,,,,,
+J4,1,Conn_01x05_Pin,Molex_KK-254_AE-6410-05A_1x05_P2.54mm_Vertical,,,,tht,"Generic connector, single row, 01x05, script generated",,,,,,,
+J5,1,Conn_01x15_Pin,PinSocket_1x15_P2.54mm_Vertical,,,,tht,"Generic connector, single row, 01x15, script generated",,,,,,,
+"J6, J7, J8, J9",4,Conn_01x15_Pin,PinHeader_1x15_P2.54mm_Vertical,,,,tht,"Generic connector, single row, 01x15, script generated",,,,,,,
+R1,1,1.1k,R_0402_1005Metric,,,,smt,Resistor,,,,,,,
+R2,1,600,R_0402_1005Metric,,,,smt,Resistor,,,,,,,
+R3,1,100,R_0402_1005Metric,,,,smt,Resistor,,,,,,,

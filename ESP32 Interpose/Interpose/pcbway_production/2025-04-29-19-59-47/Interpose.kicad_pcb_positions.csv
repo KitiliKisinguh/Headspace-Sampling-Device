@@ -1,0 +1,31 @@
+﻿pos_x,pos_y,rotation,side,designator,mpn,pack,footprint,value,mount_type
+85.2,-64.0,0.0,top,C1,,,C_1206_3216Metric,10uF,smt
+117.3,-127.925,-90.0,top,C10,,,C_1206_3216Metric,10uF,smt
+122.2,-127.9,-90.0,top,C11,,,C_1206_3216Metric,10uF,smt
+140.0,-128.0,0.0,top,C12,,,C_1206_3216Metric,10uF,smt
+145.6,-128.004,0.0,top,C13,,,C_1206_3216Metric,10uF,smt
+151.2,-128.0,0.0,top,C14,,,C_1206_3216Metric,10uF,smt
+93.0,-63.8,0.0,top,C2,,,C_1206_3216Metric,10uF,smt
+90.65,-128.1,-90.0,top,C3,,,C_1206_3216Metric,10uF,smt
+94.65,-128.05,-90.0,top,C4,,,C_1206_3216Metric,10uF,smt
+99.0,-128.025,-90.0,top,C5,,,C_1206_3216Metric,10uF,smt
+103.45,-128.075,-90.0,top,C6,,,C_1206_3216Metric,10uF,smt
+115.2,-80.4,-90.0,top,C7,,,C_1206_3216Metric,0.1uF,smt
+108.2,-128.025,-90.0,top,C8,,,C_1206_3216Metric,10uF,smt
+112.5,-127.95,-90.0,top,C9,,,C_1206_3216Metric,10uF,smt
+138.0,-61.2,-90.0,top,D1,,PLCC-2 Würth Elektronik,WL-SMTW_3528,WL-SMTW_3528,smt
+129.4,-61.2,90.0,top,D2,,PLCC-2 Würth Elektronik,WL-SMTW_3528,WL-SMTW_3528,smt
+119.8,-61.2,90.0,top,D3,,PLCC-2 Würth Elektronik,WL-SMTW_3528,WL-SMTW_3528,smt
+76.0,-60.6,90.0,top,J1,,,PinHeader_1x02_P2.54mm_Vertical,Conn_01x02_Pin,tht
+139.3,-123.204,90.0,top,J10,,,PinHeader_1x06_P2.54mm_Vertical,Conn_01x06_Pin,tht
+83.725,-60.6,90.0,top,J2,,,PinHeader_1x02_P2.54mm_Vertical,Conn_01x02_Pin,tht
+91.46,-60.6,90.0,top,J3,,,PinHeader_1x02_P2.54mm_Vertical,Conn_01x02_Pin,tht
+145.84,-61.2,0.0,top,J4,,,Molex_KK-254_AE-6410-05A_1x05_P2.54mm_Vertical,Conn_01x05_Pin,tht
+87.19,-123.4,90.0,top,J5,,,PinSocket_1x15_P2.54mm_Vertical,Conn_01x15_Pin,tht
+82.88,-79.625,0.0,top,J6,,,PinHeader_1x15_P2.54mm_Vertical,Conn_01x15_Pin,tht
+110.8,-79.625,0.0,top,J7,,,PinHeader_1x15_P2.54mm_Vertical,Conn_01x15_Pin,tht
+72.0,-79.875,0.0,top,J8,,,PinHeader_1x15_P2.54mm_Vertical,Conn_01x15_Pin,tht
+124.6,-79.875,0.0,top,J9,,,PinHeader_1x15_P2.54mm_Vertical,Conn_01x15_Pin,tht
+135.4,-61.2,-90.0,top,R1,,,R_0402_1005Metric,1.1k,smt
+126.6,-61.2,-90.0,top,R2,,,R_0402_1005Metric,600,smt
+123.4,-61.2,90.0,top,R3,,,R_0402_1005Metric,100,smt

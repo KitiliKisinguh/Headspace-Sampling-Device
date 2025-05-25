@@ -1,0 +1,24 @@
+﻿Designator,Quantity,Value,Footprint,Package,MPN,DNP,Mount_Type,Description,Tolerance,Voltage,MF,Manufacturer,MFR,Height,Manufacturer_Name,Mouser Part Number,Mouser Price/Stock,Arrow Part Number,Arrow Price/Stock,DESCRIPTION,PRICE,Check_prices,STANDARD,SnapEDA_Link,MP,Purchase-URL,Description_1,Availability,Price,MANUFACTURER,PARTREV
+C1,1,0.1uF,C_1206_3216Metric,,,,smt,Unpolarized capacitor,±10%,50V dc,,,,,,,,,,,,,,,,,,,,,
+C2,1,0.33uF,C_1206_3216Metric,,,,smt,Unpolarized capacitor,±10%,50V dc,,,,,,,,,,,,,,,,,,,,,
+C3,1,10uF,C_1206_3216Metric,,,,smt,Unpolarized capacitor,±10%,50V dc,,,,,,,,,,,,,,,,,,,,,
+D1,1,KA-3528SGT,WL-SMTW_3528,PLCC-2 Würth Elektronik,,,smt,"Kingbright2.2 V Green LED PLCC 2 SMD, KA-3528SGT",,,Kingbright,,,,,,,,,,,,,,,,,,,,
+D2,1,BZX84C15,SOT-23,SOT-23,,,smt,"Zener Single Diode, 15 V, 350 mW, SOT-23, 3 Pins, 150 °C, Surface Mount",,,,DIODES INC.,,,,,,,,,,,,,,,,,,,
+D3,1,BZD27C24P R3G,SODFL3618X143N,SUB SMA-2 Taiwan Semiconductor,,,smt,"Zener Single Diode, 24 V, 800 mW, SMD, 2 Pins, 175 °C, Surface Mount",,,,,,,,,,,,,,,,,,,,,,,
+D4,1,PMEG3005ET-QR,SOT23,,,,smt,"Small Signal Schottky Diode, Single, 30 V, 0.5 A, 430 mV, 10 A, 150 °C",,,,,NEXPERIA,,,,,,,,,,,,,,,,,,
+IC1,1,UCC23513QDWYRQ1,SOIC127P1150X355-6N,,UCC23513QDWYRQ1,,smt,"Gate Drivers Automotive 4-A source, 5-A sink, 5.7-kVRMS opto-compatible single-channel isolated gate driver 6-SOIC -40 to 125",,,,,,3.55,Texas Instruments,595-UCC23513QDWYRQ1,https://www.mouser.co.uk/ProductDetail/Texas-Instruments/UCC23513QDWYRQ1?qs=DRkmTr78QAQFOTnNqSLksg%3D%3D,UCC23513QDWYRQ1,https://www.arrow.com/en/products/ucc23513qdwyrq1/texas-instruments?region=nac,,,,,,,,,,,,
+J1,1,Conn_01x05_Pin,JST_PH_B5B-PH-K_1x05_P2.00mm_Vertical,,,,tht,"Generic connector, single row, 01x05, script generated",,,,,,,,,,,,,,,,,,,,,,,
+"R1, R2",2,130R,R_1206_3216Metric,,,,smt,Resistor,±1%,,,,,,,,,,,,,,,,,,,,,,
+"R3, R5",2,1.1k,R_1206_3216Metric,,,,smt,Resistor,,,,,,,,,,,,,,,,,,,,,,,
+R4,1,15k,R_1206_3216Metric,,,,smt,Resistor,,,,,,,,,,,,,,,,,,,,,,,
+R6,1,2.4k,R_1206_3216Metric,,,,smt,Resistor,,,,,,,,,,,,,,,,,,,,,,,
+U1,1,STP55NF06L,TO254P1040X460X1935-3,TO-220 STMicroelectronics,,,tht,,,,STMicroelectronics,,,,,,,,,"N-channel 60 V, 0.014 Ohm typ., 35 A StripFET II Power MOSFET in a TO-220 package",None,https://www.snapeda.com/parts/STP55NF06L/STMicroelectronics/view-part/?ref=eda,IPC7351B,https://www.snapeda.com/parts/STP55NF06L/STMicroelectronics/view-part/?ref=snap,STP55NF06L,https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=552863&manufacturer=STMicroelectronics&part_name=STP55NF06L&search_term=None,"
+                        
+                            N-Channel 60V 55A (Tc) 95W (Tc) Through Hole TO-220AB
+                        
+",In Stock,None,STMicroelectronics,
+U2,1,MC7815CDTRKG,DPAK229P990X238-4N,DPAK-3 ON Semiconductor,,,smt,,,,onsemi,,,,,,,,,,,https://www.snapeda.com/parts/MC7805BDTRKG/Onsemi/view-part/?ref=eda,IPC-7351B,https://www.snapeda.com/parts/MC7805BDTRKG/Onsemi/view-part/?ref=snap,MC7805BDTRKG,,"
+                        
+                            Linear Voltage Regulator IC Positive Fixed 1 Output 1A DPAK
+                        
+",In Stock,None,ON Semiconductor,27

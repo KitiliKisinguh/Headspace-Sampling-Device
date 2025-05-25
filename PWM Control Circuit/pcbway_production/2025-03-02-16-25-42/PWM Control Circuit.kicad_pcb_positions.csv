@@ -1,0 +1,22 @@
+﻿pos_x,pos_y,rotation,side,designator,mpn,pack,footprint,value,mount_type
+110.0,-94.325,0.0,top,+15V_TP1,,,Pin_D0.9mm_L10.0mm_W2.4mm_FlatFork,TestPoint,tht
+89.465,-105.2,0.0,top,C1,,,C_1206_3216Metric,0.1uF,smt
+118.0,-99.5,-90.0,top,C2,,,C_1206_3216Metric,0.33uF,smt
+123.0,-99.5,-90.0,top,C3,,,C_1206_3216Metric,10uF,smt
+93.6,-85.0,0.0,top,D1,,PLCC-2 Würth Elektronik,WL-SMTW_3528,KA-3528SGT,smt
+104.05,-101.5625,90.0,top,D2,,SOT-23,SOT-23,BZX84C15,smt
+109.5,-90.0,0.0,top,D3,,SUB SMA-2 Taiwan Semiconductor,SODFL3618X143N,BZD27C24P R3G,smt
+115.0,-103.0,90.0,top,D4,,,SOT23,PMEG3005ET-QR,smt
+110.0,-100.0,0.0,top,GND_TP1,,,Pin_D0.9mm_L10.0mm_W2.4mm_FlatFork,TestPoint,tht
+106.2,-83.8,0.0,top,IC1,UCC23513QDWYRQ1,,SOIC127P1150X355-6N,UCC23513QDWYRQ1,smt
+90.04,-92.72,-90.0,top,J1,,,JST_PH_B5B-PH-K_1x05_P2.00mm_Vertical,Conn_01x05_Pin,tht
+127.0,-96.0,0.0,top,J2,,,PinSocket_1x02_P2.00mm_Vertical,Conn_01x02_Pin,tht
+97.8125,-90.0,0.0,top,R1,,,R_1206_3216Metric,130R,smt
+97.6625,-95.0,0.0,top,R2,,,R_1206_3216Metric,130R,smt
+97.5875,-100.3,0.0,top,R3,,,R_1206_3216Metric,1.1k,smt
+97.6125,-106.075,0.0,top,R4,,,R_1206_3216Metric,15k,smt
+103.5375,-90.0,0.0,top,R5,,,R_1206_3216Metric,1.1k,smt
+103.5625,-95.1,0.0,top,R6,,,R_1206_3216Metric,2.4k,smt
+107.42,-112.0,0.0,top,U1,,TO-220 STMicroelectronics,TO254P1040X460X1935-3,STP55NF06L,tht
+120.8833,-89.51,0.0,top,U2,,DPAK-3 ON Semiconductor,DPAK229P990X238-4N,MC7815CDTRKG,smt
+110.0,-105.75,0.0,top,VG_TP1,,,Pin_D0.9mm_L10.0mm_W2.4mm_FlatFork,TestPoint,tht

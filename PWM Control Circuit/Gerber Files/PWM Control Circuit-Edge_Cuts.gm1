@@ -1,0 +1,23 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,8.0.1*%
+%TF.CreationDate,2025-03-05T11:05:37+00:00*%
+%TF.ProjectId,PWM Control Circuit,50574d20-436f-46e7-9472-6f6c20436972,Version 2*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Profile,NP*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 8.0.1) date 2025-03-05 11:05:37*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%TA.AperFunction,Profile*%
+%ADD10C,0.050000*%
+%TD*%
+G04 APERTURE END LIST*
+D10*
+X85550000Y-77500000D02*
+X129550000Y-77500000D01*
+X129550000Y-114500000D01*
+X85550000Y-114500000D01*
+X85550000Y-77500000D01*
+M02*
