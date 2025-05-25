@@ -13,7 +13,7 @@
 ### Vial Agitation
 <div align="center">
   <video width="600" controls>
-    <source src="Documents/Videos/Vial%20Agitation.gif" type="video/mp4">
+    <source src="Documents/Videos/Vial%20Agitation.gif">
     Your browser does not support HTML5 video.
   </video>
 </div>
