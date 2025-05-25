@@ -4,16 +4,15 @@
 
 ### Headspace Sampler Operation
 
-<video style="display:block; width:100%; height:auto;" autoplay="" controls="" loop="loop">
-           <source src="/Documents/Videos/Headspace%20Sampling%20Device%20Operation.MP4" type="video/mp4">
-</video>
+[View Video](/Documents/Videos/Headspace%20Sampling%20Device%20Operation.MP4)  
+This video demonstrates the proper operation of the headspace sampling device.
+
 ---
 
 ### Vial Agitation
 
-<video style="display:block; width:100%; height:auto;" autoplay="" controls="" loop="loop">
-           <source src="Documents/Videos/Vial%20Agitation.mp4" type="video/mp4">
-</video>
+[View Video](/Documents/Videos/Vial%20Agitation.mp4)  
+This video shows the correct technique for vial agitation during the sampling process.
 
 ---
 
