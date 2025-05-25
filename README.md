@@ -19,7 +19,7 @@ This video shows the correct technique for vial agitation during the sampling pr
 ### Interposer Board for ESP32 Controller
 This board is designed to hold and interface with the ESP32 controller used for PWM signal generation.
 
-<img src="ESP32%20Interpose/Images/Interpose.JPEG" width="400" alt="Interpose Control Board">
+<img src="Interpose/Images/Interpose.JPEG" width="400" alt="Interpose Control Board">
 
 **Features:**
 - ESP32 microcontroller interface
