@@ -44,7 +44,7 @@ Regulates PWM from 24V to 12V for the Kapton heater used in the headspace sampli
 ### PWM Control for Inductive Loads
 A second version of the PWM control board, specifically designed for driving inductive loads with regulated output.
 
-<img src="PWM%20Control%20Circuit/Images/PWM%20controller%20V2.JPEG" width="400" alt="PWM Control Board V2">
+<img src="PWM%20Control%20Circuit/Images/PWM%20Controller%20V2.JPEG" width="400" alt="PWM Control Board V2">
 
 **Improvements:**
 - Enhanced inductive load handling
