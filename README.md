@@ -57,5 +57,3 @@
 - Max current: 5A
 
 ---
-
-## Project Structure
