@@ -4,7 +4,7 @@
 
 ### Headspace Sampler Operation
 <div align="center">
-  <img src="Documents/Videos/Headspace%20Sampling%20Device%20Operation.gif" width="600" alt="Headspace Sampler Demo">
+  <img src="Documents/Videos/Headspace%20Sampling%20Operation.gif" width="600" alt="Headspace Sampler Demo">
 </div>
 <p align="center">This video demonstrates the proper operation of the headspace sampling device.</p>
 
@@ -13,7 +13,7 @@
 ### Vial Agitation
 <div align="center">
   <video width="600" controls>
-    <source src="Documents/Videos/Vial%20Agitation.mp4" type="video/mp4">
+    <source src="Documents/Videos/Vial%20Agitation.gif" type="video/mp4">
     Your browser does not support HTML5 video.
   </video>
 </div>
