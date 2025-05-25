@@ -3,7 +3,7 @@
 ## Headspace Sampling Device
 
 ### Headspace Sampler Operation
-[![Headspace Sampler Operation](Documents/Videos/Headspace%20Sampling%20Device%20Operation.MP4)](Documents/Videos/Headspace%20Sampling%20Device%20Operation.MP4)  
+[![Headspace Sampler Operation](Documents/Videos/Headspace%20Sampling%20Device%20Operation.mp4)](Documents/Videos/Headspace%20Sampling%20Device%20Operation.mp4)  
 This video demonstrates the proper operation of the headspace sampling device.
 
 ---
@@ -35,9 +35,9 @@ Regulates PWM from 24V to 12V for the Kapton heater used in the headspace sampli
 
 **Specifications:**
 - Input: 24V DC
-- Output: 12V PWM
+- Input: 5V PWM
+- Output: 24V PWM
 - Max current: 5A
-- KiCad design files included
 
 ---
 
@@ -46,10 +46,11 @@ A second version of the PWM control board, specifically designed for driving ind
 
 <img src="PWM%20Control%20Circuit/Images/PWM%20Controller%20V2.JPEG" width="400" alt="PWM Control Board V2">
 
-**Improvements:**
-- Enhanced inductive load handling
-- Better heat dissipation
-- Reverse polarity protection
+**Specifications:**
+- Input: 24V DC
+- Input: 5V PWM
+- Output: 12V PWM
+- Max current: 5A
 
 ---
 
