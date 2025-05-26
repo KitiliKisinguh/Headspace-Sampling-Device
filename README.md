@@ -12,7 +12,7 @@
 
 ### Vial Agitation
 <div align="center">
-  <img src="Documents/Videos/Vial%20Agitation.gif" width="400" height= "400" alt="Headspace Sampler Demo">
+  <img src="Documents/Videos/Vial%20Agitation.gif" width="300" height= "400" alt="Headspace Sampler Demo">
 </div>
 <p align="center">This video shows the correct technique for vial agitation during the sampling process.</p>
 
