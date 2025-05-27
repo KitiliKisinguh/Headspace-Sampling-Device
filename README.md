@@ -22,8 +22,9 @@
 <div align="center">
  <img src="Documents/Videos&Images/TemperatureGraph.PNG" alt="Temperature Setpoint & Graph">
 </div>
-<p align="centre">Temperature Graph and Setpoint."</p>
+<p align="center">Temperature Graph and Setpoint."</p>
 
+---
 
 ## Control Circuits
 
@@ -66,9 +67,9 @@
 ---
 
 **File Structure**
-- Fixture design files are found in 3D components folder
-- Firmware to upload to ESP32 as well as other relevant programs are found in the Code folder
-- Final Year Report, Poster and Videos are found in the Documents folder
-- Heater-Control-PCB folder conatins KiCad design files for the Heater Control PCB as well as gerber files for production
-- Interposer folder contains KiCad design files for the ESP32 interpose board and gerber files for production
-- PWM Control Folder contains KiCad design files for the PWM Controller boards for inductive loads
+- Fixture design files are found in 3D components folder.
+- Firmware to upload to ESP32 as well as other relevant programs are found in the Code folder.
+- Final Year Report, Poster and Videos are found in the Documents folder.
+- Heater-Control-PCB folder conatins KiCad design files for the Heater Control PCB as well as gerber files for production.
+- Interposer folder contains KiCad design files for the ESP32 interpose board and gerber files for production.
+- PWM Control Folder contains KiCad design files for the PWM Controller boards for inductive loads.
