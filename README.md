@@ -22,7 +22,7 @@
 <div align="center">
  <img src="Documents/Videos&Images/TemperatureGraph.PNG" alt="Temperature Setpoint & Graph">
 </div>
-<p align="center">Temperature Graph and Setpoint."</p>
+<p align="center">Temperature Graph and Setpoint.</p>
 
 ---
 
