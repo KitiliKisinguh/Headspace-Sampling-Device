@@ -12,7 +12,7 @@
 
 ### Vial Agitation
 <div align="center">
-  <img src="Documents/Videos/Vial%20Agitation.gif" width="300" height= "400" alt="Headspace Sampler Demo">
+  <img src="Documents/Videos/Vial%20Agitation.gif" width="250" height= "400" alt="Headspace Sampler Demo">
 </div>
 <p align="center">This video shows the correct technique for vial agitation during the sampling process.</p>
 
@@ -57,3 +57,6 @@
 - Max current: 5A
 
 ---
+
+**Project Structure**
+-3D components holds the structure of the files & needs to be configured 

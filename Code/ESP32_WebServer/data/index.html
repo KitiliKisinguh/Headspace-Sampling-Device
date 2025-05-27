@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ESP32 Controller</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>    
+      #graphCanvas {
+        border: 1px solid #000;
+        background: #fff;
+        margin: 20px auto;
+        display: block;
+      }
+      .controls {
+        text-align: center;
+        margin: 20px;
+      }
+      .controls p {
+        font-size: 1.2rem;
+      }
+      .slider {
+        width: 80%;
+      }
+    </style>
+    <!-- Toggle switch styling -->
+    <style>
+      .toggle-switch {
+        position: relative;
+        display: inline-block;
+        width: 120px;
+        height: 68px;
+      }
+      .toggle-switch input {
+        display: none;
+      }
+      .toggle-slider {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #ccc;
+        border-radius: 34px;
+      }
+      .toggle-slider:before {
+        position: absolute;
+        content: "";
+        height: 52px;
+        width: 52px;
+        left: 8px;
+        bottom: 8px;
+        background-color: #fff;
+        transition: .4s;
+        border-radius: 68px;
+      }
+      input:checked + .toggle-slider {
+        background-color: #2196F3;
+      }
+      input:checked + .toggle-slider:before {
+        transform: translateX(52px);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="topnav">
+      <h1>ESP32 Controller</h1>
+    </div>
+    <div class="content">
+      <div class="controls">
+        <p>Setpoint: <span id="setpoint">25</span> &deg;C</p>
+        <form id="tempForm" action="/setTemp" method="get">
+          <input type="range" min="25" max="150" value="25" class="slider" id="tempSlider" name="temp" oninput="document.getElementById('setpoint').innerText = this.value">
+          <br><br>
+          <input type="submit" value="Set Temperature">
+        </form>
+      </div>
+
+      <h2>Temperature Graph</h2>
+      <!-- Canvas element where the graph will be drawn -->
+      <canvas id="graphCanvas" width="800" height="400"></canvas>
+    </div>
+    <script src="script.js"></script>
+    <script>
+      // Helper function to retrieve a query parameter's value
+      function getQueryParam(param) {
+        let params = new URLSearchParams(window.location.search);
+        return params.get(param);
+      }
+      // On page load, update the setpoint display and slider if provided in the URL
+      window.addEventListener('load', function() {
+        let sp = getQueryParam('setpoint');
+        if (sp) {
+          document.getElementById('setpoint').innerText = sp;
+          document.getElementById('tempSlider').value = sp;
+        }
+      });
+    </script>
+
+    <!-- Pump Control (Pin 13) -->
+      <h3>Pump Control</h3>
+      <div class="controls">
+        <p>FlowRate: <span id="flowrate">0</span>%</p>
+        <!-- Added id "flowForm" -->
+        <form id="flowForm" action="/setFlow" method="get">
+          <input type="range" min="0" max="100" value="0" class="slider" id="FlowSlider" name="airflow" oninput="document.getElementById('flowrate').innerText = this.value">
+          <br><br>
+          <input type="submit" value="Set Flow Rate">
+      </form>
+      </div>
+    </script>
+
+    <!-- Toggle switch for Solenoid Valve Control (Pin 14) -->
+    <div class="controls">
+      <h3>Solenoid Valve Control </h3>
+      <label class="toggle-switch">
+        <input type="checkbox" onchange="toggleSolenoid(this)" id="solenoidToggle">
+        <span class="toggle-slider"></span>
+      </label>
+      <p>State: <span id="solenoidState">Off</span></p>
+    </div>
+    <script>
+      function toggleSolenoid(element){
+        var xhr = new XMLHttpRequest();
+        if(element.checked){
+          xhr.open("GET", "/updateSolenoid?state=1", true);
+        } else {
+          xhr.open("GET", "/updateSolenoid?state=0", true);
+        }
+        xhr.send();
+      }
+      
+      // Poll for the current state of the Solenoid Valve every second
+      setInterval(function () {
+        var xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange = function() {
+          if (this.readyState == 4 && this.status == 200) {
+            var solenoidStateText = (this.responseText.trim() == "1") ? "On" : "Off";
+            document.getElementById("solenoidState").innerText = solenoidStateText;
+            document.getElementById("solenoidToggle").checked = (this.responseText.trim() == "1");
+          }
+        };
+        xhttp.open("GET", "/stateSolenoid", true);
+        xhttp.send();
+      }, 1000);
+    </script>
+
+    <h3>Motor Control</h3>
+    <div class="controls">
+      <p>DutyCycle: <span id="dutycycle">0</span>%</p>
+      <form id="motorForm" action="/setMotor" method="get">
+        <input type="range" min="0" max="100" value="0" class="slider" id="MotorSlider" name="motor" oninput="document.getElementById('dutycycle').innerText = this.value">
+        <br><br>
+        <input type="submit" value="Set Duty Cycle">
+      </form>
+    </div>
+
+    <!--Intercepts form submissions and send AJAX requests -->
+    <script>
+      // Temperature form submit handler
+      document.getElementById("tempForm").addEventListener("submit", function(e) {
+        e.preventDefault();
+        var tempVal = document.getElementById("tempSlider").value;
+        var xhr = new XMLHttpRequest();
+        xhr.open("GET", "/setTemp?temp=" + tempVal, true);
+        xhr.send();
+      });
+
+      // Flow rate form submit handler
+      document.getElementById("flowForm").addEventListener("submit", function(e) {
+        e.preventDefault();
+        var flowVal = document.getElementById("FlowSlider").value;
+        var xhr = new XMLHttpRequest();
+        xhr.open("GET", "/setFlow?airflow=" + flowVal, true);
+        xhr.send();
+      });
+
+      // duty cycle form submit handler
+      document.getElementById("motorForm").addEventListener("submit", function(e) {
+      e.preventDefault();
+      var dutyVal = document.getElementById("MotorSlider").value;
+      var xhr = new XMLHttpRequest();
+      xhr.open("GET", "/setMotor?motor=" + dutyVal, true);
+      xhr.send();
+      });
+    </script>
+  </body>
+</html>
