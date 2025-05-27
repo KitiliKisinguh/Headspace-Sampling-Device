@@ -2,6 +2,8 @@
 
 ## Headspace Sampling Device
 
+Automatic headspace sampling is a technique used to analyze the volatile organic compounds (VOCs) present in a liquid or solid phase sample. This method utilizes heat to separate lighter, volatile compounds from a heavier matrix. Designed as a low cost and efficient solution, this project aims to provide an automated headspace sampler for use in the mass spectrometry department. It employes a closed loop microcontroller system to precisely heat a sample vial to a specific temperature using a PID controller to maintain the temperature withing a 0.1° C error margin. Once the analyte reaches equilibrium in the gas phase, it is directed to a mass spectrometer via an arrangement piping an air pump and solenoid valve. A graphical user interface (GUI) integrates these components, providing cohesive control and monitoring of the process. 
+
 ### Headspace Sampler Operation
 <div align="center">
   <img src="Documents/Videos&Images/Headspace%20Sampling%20Operation.gif" width="600" alt="Headspace Sampler Demo">
